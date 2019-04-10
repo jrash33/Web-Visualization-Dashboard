@@ -1,0 +1,58 @@
+body{
+    background:gray;
+}
+
+.header{
+    background-color: white;
+}
+
+.box {
+    height: 400px;
+    padding: 20px;
+    color: green;
+    background: white;
+  }
+
+.box_lat{
+    border: 10px solid green;
+    background: green;
+    color: white;
+    width: 123px;
+    position: relative;
+    left: 70px;
+}
+
+.images{
+    padding: 10px;
+}
+
+.box_viz {
+    height: 700px;
+    padding: 20px;
+    color: green;
+    background: white;
+  }
+
+.box_viz2 {
+    height: 450px;
+    padding: 20px;
+    color: green;
+    background: white;
+  }
+
+.box_viz3{
+    height: 900px;
+    padding: 20px;
+    color: green;
+    background: white;
+
+}
+
+.box_viz4{
+    height: 25580px;
+    padding: 20px;
+    color: green;
+    background: white;
+
+}
+

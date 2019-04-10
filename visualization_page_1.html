@@ -1,0 +1,109 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+
+    <!-- bootstrap stylesheet -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="hw.css">
+
+</head>
+<body>  
+
+    <header class="header">
+        <!--First Row-->
+        <div class="row">
+            <div class="col-md-9">
+            <div class="box_lat">
+                <h3>Latitude</h3>
+            </div>
+            </div>
+ 
+            <div class="col-md-1">
+                <div class="dropdown">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Plots
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                            <li><a class="dropdown-item" href="D:\UCSD Data Science Bootcamp\Homework\HW 11- Web Visualization\Web-Visualization-Dashboard/visualization_page_1.html">Max Temperature</a></li>
+                            <li><a class="dropdown-item" href="D:\UCSD Data Science Bootcamp\Homework\HW 11- Web Visualization\Web-Visualization-Dashboard/visualization_page_2.html">Humidity</a></li>
+                            <li><a class="dropdown-item" href="D:\UCSD Data Science Bootcamp\Homework\HW 11- Web Visualization\Web-Visualization-Dashboard/visualization_page_3.html">Cloudiness</a></li>
+                            <li><a class="dropdown-item" href="D:\UCSD Data Science Bootcamp\Homework\HW 11- Web Visualization\Web-Visualization-Dashboard/visualization_page_4.html">Wind Speed</a></li>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-md-1">
+                    <h6>
+                        <a href="D:\UCSD Data Science Bootcamp\Homework\HW 11- Web Visualization\Web-Visualization-Dashboard/comparisons.html">Comparison</a>
+                    </h6>
+                </div>
+    
+                <div class="col-md-1">
+                    <h6>
+                        <a href="D:\UCSD Data Science Bootcamp\Homework\HW 11- Web Visualization\Web-Visualization-Dashboard/data.html">Data</a>
+                    </h6>
+            </div>
+
+        </div>
+    </header>
+
+    <br><br><br>
+    <div class="container-fluid" style="width:1400px">
+        <main>
+            <div class="row">
+                <!--First Column in this Row-->
+                <div class="col-md-8">
+                <div class="box_viz">
+                    <h1>Max Temperature</h1>
+                    <hr></hr>
+                    <p align="middle">
+                    <img width=750 src="D:\UCSD Data Science Bootcamp\Homework\HW 11- Web Visualization\Web-Visualization-Dashboard\Images\latitude_temperature.png" alt="">
+                    </p>
+                    <p style="color:black;">As expected, the weather becomes significantly warmer as one approaches the equator (0 Deg. Latitude). More interestingly, however, is the fact that the southern hemisphere tends to be warmer this time of year than the northern hemisphere. This may be due to the tilt of the earth at the time of the year this data was gathered.</p>
+                </div>
+                </div>
+        
+                <!--Second Column in this Row-->
+                <div class="col-md-4">
+                <div class="box_viz2">
+                    <h1>Visualizations</h1>
+                    <hr></hr>
+                    <div class="row">
+                            <div class="col-md-6 col-sm-6" style="padding-bottom:20px; border: 2px solid green;">
+                                <div class="thumbnail">
+                                    <img width=193 src="D:\UCSD Data Science Bootcamp\Homework\HW 11- Web Visualization\Web-Visualization-Dashboard\Images\latitude_temperature.png" alt="">
+                                </div>
+                            </div>
+                            <div class="col-md-6 col-sm-6" style="padding-bottom:20px;">
+                                <div class="thumbnail">
+                                    <img width=193 src="D:\UCSD Data Science Bootcamp\Homework\HW 11- Web Visualization\Web-Visualization-Dashboard\Images\latitude_humidity.png" alt="">
+                                </div>
+                            </div>                                
+                            <div class="col-md-6 col-sm-6" style="padding-top:20px;padding-bottom:20px;">
+                                <div class="thumbnail">
+                                    <img width=193 src="D:\UCSD Data Science Bootcamp\Homework\HW 11- Web Visualization\Web-Visualization-Dashboard\Images\latitude_cloudiness.png" alt="">
+                                </div>
+                            </div>       
+                            <div class="col-md-6 col-sm-6" style="padding-top:20px;padding-bottom:20px;">
+                                <div class="thumbnail">
+                                    <img width=193 src="D:\UCSD Data Science Bootcamp\Homework\HW 11- Web Visualization\Web-Visualization-Dashboard\Images\latitude_windspeed.png" alt="">
+                                </div>
+                            </div>
+                </div>
+            
+            </div>
+        </main>    
+        
+    </div>
+
+
+
+<!--Jquery bootstrap code-->
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</body>
+</html>
