@@ -2,6 +2,11 @@ body{
     background:gray;
 }
 
+.col{
+    padding-left:1px;
+    padding-right: 1px;
+}
+
 .header{
     background-color: white;
 }
@@ -12,6 +17,13 @@ body{
     color: green;
     background: white;
   }
+
+.box2 {
+    height: 400px;
+    padding: 20px;
+    color: green;
+    background: white;
+}
 
 .box_lat{
     border: 10px solid green;
@@ -45,7 +57,6 @@ body{
     padding: 20px;
     color: green;
     background: white;
-
 }
 
 .box_viz4{
@@ -54,5 +65,61 @@ body{
     color: green;
     background: white;
 
+}
+
+/* Here we define some styles that will ONLY be applied at screen sizes below 992 pixels */
+@media (max-width: 992px) {
+.box2 {
+    height: 250px;
+    padding: 20px;
+    color: green;
+    background: white;
+}
+
+.box_viz3{
+    height: 1850px;
+    padding: 20px;
+    color: green;
+    background: white;
+}
+
+.box_viz3 a{
+    padding: 80px;
+}
+
+.box_viz3 div{
+    padding: 10px;
+}
+
+.box_viz4{
+    height: 21000px;
+    padding: 20px;
+    color: green;
+    background: white;
+}
+
+.table{
+    font-size:10;
+} 
+
+.box_viz{
+    width:945;
+    height: 750;
+}
+
+.box_viz p img{
+    width:900;
+    padding-left:100px;
+}
+
+.box_viz2 {
+    width:945;
+    height: 300;
+}
+
+.box_viz2 div img{
+    width:210;
+}
+  
 }
 

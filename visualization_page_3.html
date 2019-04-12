@@ -11,49 +11,50 @@
 </head>
 <body>  
 
-    <header class="header">
+    <nav class="header">
         <!--First Row-->
         <div class="row">
-            <div class="col-md-9">
+            <div class="col-lg-9 col-sm-6">
             <div class="box_lat">
                 <h3>Latitude</h3>
             </div>
             </div>
  
-            <div class="col-md-1">
-                <div class="dropdown">
-                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        Plots
-                    </button>
-                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+            <div class="col-lg-1 col-sm-2">
+                    <div class="dropdown">
+                        <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            Plots
+                        </button>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
                             <li><a class="dropdown-item" href="visualization_page_1.html">Max Temperature</a></li>
                             <li><a class="dropdown-item" href="visualization_page_2.html">Humidity</a></li>
                             <li><a class="dropdown-item" href="visualization_page_3.html">Cloudiness</a></li>
                             <li><a class="dropdown-item" href="visualization_page_4.html">Wind Speed</a></li>
-                    </div>
+                        </div>
                 </div>
             </div>
 
-            <div class="col-md-1">
+            <div class="col-lg-1 col-sm-2">
                     <h6>
                         <a href="comparisons.html">Comparison</a>
                     </h6>
-                </div>
-    
-                <div class="col-md-1">
-                    <h6>
-                        <a href="data.html">Data</a>
-                    </h6>
             </div>
+        
+            <div class="col-lg-1 col-sm-2">
+                <h6>
+                    <a href="data.html">Data</a>
+                </h6>
+            </div>
+
         </div>
-    </header>
+    </nav>
 
     <br><br><br>
     <div class="container-fluid" style="width:1400px">
         <main>
             <div class="row">
                 <!--First Column in this Row-->
-                <div class="col-md-8">
+                <div class="col-lg-8 col-sm-12">
                 <div class="box_viz">
                     <h1>Cloudiness</h1>
                     <hr></hr>
@@ -62,30 +63,31 @@
                     </p>
                     <p style="color:black;">There doesn't seem to be a much of a strong correlation between city latitude and cloudiness. There does seem to be some sort of pattern in the data and deeper analysis may be necessary to investigate.  My conclusion is that cloudiness and city latitude have no statistical relationship.</p>
                 </div>
+                <br><br>
                 </div>
         
                 <!--Second Column in this Row-->
-                <div class="col-md-4">
+                <div class="col-lg-4 col-sm-12">
                 <div class="box_viz2">
                     <h1>Visualizations</h1>
                     <hr></hr>
                     <div class="row">
-                            <div class="col-md-6 col-sm-6" style="padding-bottom:20px;">
+                            <div class="col-lg-6 col-sm-3" style="padding-top:10px;padding-bottom:10px;">
                                 <div class="thumbnail">
                                     <img width=193 src="Images\latitude_temperature.png" alt="">
                                 </div>
                             </div>
-                            <div class="col-md-6 col-sm-6" style="padding-bottom:20px;">
+                            <div class="col-lg-6 col-sm-3" style="padding-top:10px;padding-bottom:10px;">
                                 <div class="thumbnail">
                                     <img width=193 src="Images\latitude_humidity.png" alt="">
                                 </div>
                             </div>                                
-                            <div class="col-md-6 col-sm-6" style="padding-top:20px;padding-bottom:20px;border: 2px solid green;">
+                            <div class="col-lg-6 col-sm-3" style="padding-top:10px;padding-bottom:10px;border: 2px solid green;">
                                 <div class="thumbnail">
                                     <img width=193 src="Images\latitude_cloudiness.png" alt="">
                                 </div>
                             </div>       
-                            <div class="col-md-6 col-sm-6" style="padding-top:20px;padding-bottom:20px;">
+                            <div class="col-lg-6 col-sm-3" style="padding-top:10px;padding-bottom:10px;">
                                 <div class="thumbnail">
                                     <img width=193 src="Images\latitude_windspeed.png" alt="">
                                 </div>
@@ -93,6 +95,7 @@
                 </div>
             
             </div>
+            <br><br>
         </main>    
         
     </div>
