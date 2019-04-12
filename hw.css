@@ -1,3 +1,7 @@
+a{
+    color: gray;
+}
+
 body{
     background:gray;
 }
@@ -119,6 +123,19 @@ body{
 
 .box_viz2 div img{
     width:210;
+}
+
+.header{
+    background: seagreen;
+}
+
+a{
+    color:white;
+}
+
+.box_lat{
+    background:seagreen;
+    border: 10px solid seagreen;
 }
   
 }
